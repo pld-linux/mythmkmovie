@@ -2,8 +2,8 @@
 Summary:	An archiving assistant for MythTV
 Name:		mythmkmovie
 Version:	1.1.4
-Release:	0.6
-License:	GPL2
+Release:	0.7
+License:	GPL v2
 Group:		Applications/Multimedia
 URL:		http://www.icelus.org/
 Source0:	http://www.icelus.org/downloads/%{name}-%{version}.tar.gz
@@ -32,7 +32,8 @@ the files you have stored on your computer.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
+	INSTALLDIRS=vendor \
+	 --mythconf /var/lib/mythtv/.mythtv/mysql.txt
 %{__make}
 %{?with_tests:%{__make} test}
 
