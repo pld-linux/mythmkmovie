@@ -1,7 +1,8 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	An archiving assistant for MythTV
 Name:		mythmkmovie
 Version:	1.1.4
-Release:	0.5
+Release:	0.6
 License:	GPL2
 Group:		Applications/Multimedia
 URL:		http://www.icelus.org/
@@ -9,15 +10,12 @@ Source0:	http://www.icelus.org/downloads/%{name}-%{version}.tar.gz
 # Source0-md5:	fdff9695f8c1d5df6f4f691123097d26
 BuildRequires:	libpng-devel
 BuildRequires:	perl-Curses
-BuildRequires:	perl-DBD-mysql
-BuildRequires:	perl-DBI
 BuildRequires:	sed >= 4.0
 Requires:	libpng
 Requires:	mencoder
 Requires:	mythtv
 Requires:	perl-Curses
-Requires:	perl-DBD-MySQL
-Requires:	perl-DBI
+Requires:	perl-DBD-mysql
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
