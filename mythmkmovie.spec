@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	An archiving assistant for MythTV
-Summary(pl):	Asystent archiwizowania dla MythTV
+Summary(pl.UTF-8):   Asystent archiwizowania dla MythTV
 Name:		mythmkmovie
 Version:	1.1.4
 Release:	0.7
@@ -27,12 +27,12 @@ them when watching it in MythTV). It can be driven from the command
 line, or it also has a curses based interface to allow you to navigate
 the files you have stored on your computer.
 
-%description -l pl
-MythMkMovie to asystent archiwizowania do u¿ywania z MythTV. Tworzy
-plik DiVX dla w³asnej przyjemno¶ci ogl±dania/archiwizowania i usuwa
-przy tym reklamy (je¶li zosta³y usuniête przy ogl±daniu w MythTV).
-Mo¿e byæ sterowany z linii poleceñ, ale ma tak¿e interfejs oparty na
-curses, pozwalaj±cy przegl±daæ pliki zapisane na komputerze.
+%description -l pl.UTF-8
+MythMkMovie to asystent archiwizowania do uÅ¼ywania z MythTV. Tworzy
+plik DiVX dla wÅ‚asnej przyjemnoÅ›ci oglÄ…dania/archiwizowania i usuwa
+przy tym reklamy (jeÅ›li zostaÅ‚y usuniÄ™te przy oglÄ…daniu w MythTV).
+MoÅ¼e byÄ‡ sterowany z linii poleceÅ„, ale ma takÅ¼e interfejs oparty na
+curses, pozwalajÄ…cy przeglÄ…daÄ‡ pliki zapisane na komputerze.
 
 %prep
 %setup -q
