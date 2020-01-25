@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	An archiving assistant for MythTV
 Summary(pl.UTF-8):	Asystent archiwizowania dla MythTV
 Name:		mythmkmovie
